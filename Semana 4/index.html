@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Sitio Bootstrap</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" >Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" >Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" >Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <div class="container text-center my-4">
+    <h1>Bienvenido a Mi Sitio</h1>
+  </div>
+
+  <!-- Grid simple -->
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="imagenes/images_sitio.jpg" class="img-fluid" alt="Imagen">
+        <h3>Título 1</h3>
+        <p>Texto descriptivo sencillo.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="imagenes/images_sitio2.jpg" class="" alt="Imagen">
+        <h3>Título 2</h3>
+        <p>Otro texto descriptivo.</p>
+      </div>
+      <div class="col-md-4">
+        
+        <h3>Título 3</h3>
+        <p>Más texto descriptivo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulario -->
+  <div class="container my-4">
+    <h2>Contáctanos</h2>
+    <form>
+      <div class="mb-3">
+        <input type="text" class="form-control" >
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" >
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="3" ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Collapse -->
+  <div class="container my-4">
+    <button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#extra">
+      Mostrar más
+    </button>
+    <div id="extra" class="collapse mt-2">
+      <p>Este es un contenido oculto que aparece al hacer clic.</p>
+    </div>
+  </div>
+
+ 
+    <p>&copy; 2025 Mi Sitio </p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

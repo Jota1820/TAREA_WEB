@@ -1,0 +1,22 @@
+/* Cambiar color del botón */
+.btn-primary {
+  background-color: #ff5733;
+  border: none;
+  transition: transform 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+}
+
+/* Imagen con borde redondeado */
+img {
+  border-radius: 10px;
+}
+
+/* Cambiar color en pantallas pequeñas */
+@media (max-width: 576px) {
+  body {
+    background-color: #f0f8ff;
+  }
+}
