@@ -1,0 +1,50 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Verdana, sans-serif;
+    margin: 30px;
+}
+
+/* Título */
+h2 {
+    color: #333;
+}
+
+/* Cada bloque de campo */
+div {
+    margin-bottom: 15px;
+}
+
+/* Estilo general de los inputs */
+input {
+    padding: 6px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+/* Campo válido */
+input.correcto {
+    border-color: blue; /* azul cuando está correcto */
+}
+
+/* Campo inválido */
+input.error {
+    border-color: orange; /* naranja cuando está incorrecto */
+}
+
+/* Mensajes de error */
+.mensaje {
+    color: red;
+    font-size: 11px;
+}
+
+/* Quitar flechas del input tipo number en Chrome, Edge y Safari */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Quitar flechas del input tipo number en Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
