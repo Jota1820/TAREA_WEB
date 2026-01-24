@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif; /* Fuente simple */
+  margin: 20px;
+}
+
+h1 {
+  color: black; /* Título en negro */
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  margin: 5px 0; /* Espacio entre productos */
+  padding: 5px;
+  border: 1px solid gray; /* Borde sencillo */
+}
+
+button { display: block;
+     margin: 20px auto; 
+     padding: 10px 20px; 
+     background-color: #28a745;
+      color: white; 
+      border: none; 
+      border-radius: 4px; 
+      cursor: pointer; 
+    }
+button:hover { background-color: #218838; }
