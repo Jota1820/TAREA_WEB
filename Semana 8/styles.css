@@ -1,0 +1,15 @@
+/* Cambio de color personalizado para el fondo de la tabla al pasar el mouse */
+.table-hover tbody tr:hover {
+    background-color: #d1ecf1 !important; 
+    transition: 0.3s;
+}
+
+/* Estilo personalizado para el carrusel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover; /* Evita que la imagen se estire feo */
+}
+
+body {
+    background-color: #f8f9fa;
+} 
